@@ -1,0 +1,37 @@
+header{
+            background-color: rgb(31, 73, 36);
+            padding: 8px;
+            color: #fff;
+        }      
+        header img {
+            width: 38px;
+            background-color:  rgb(150, 236, 207);
+        }
+        .carousel-inner img {
+            max-height: 300px; 
+            object-fit: cover;
+        }
+        .row .col {
+            color: #fff;
+        }
+
+        .row .col img {
+            width: 240px;
+            height: 240px;
+            border: 3px solid black;
+            border-radius: 5%;
+            object-fit: cover
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.305);
+        }         
+        
+        .container img:hover {
+            cursor: pointer;
+            width: 280px;
+            height: 280px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.305);
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        body {
+            background-color: rgb(121, 171, 128);
+        }
